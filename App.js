@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { TrendingUp, TrendingDown, RefreshCw, Sparkles, Clock, AlertCircle, MessageCircle, Heart, Send, CornerDownRight } from 'lucide-react';
 
-const PolymarketNewsApp = () => {
+const App = () => {
   const [markets, setMarkets] = useState([]);
   const [selectedMarket, setSelectedMarket] = useState(null);
   const [narrative, setNarrative] = useState('');
@@ -1245,4 +1245,4 @@ const PolymarketNewsApp = () => {
   );
 };
 
-export default PolymarketNewsApp;
+export default App;
