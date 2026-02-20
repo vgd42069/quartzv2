@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { TrendingUp, TrendingDown, RefreshCw, Sparkles, Clock, AlertCircle, MessageCircle, Heart, Send, CornerDownRight } from 'lucide-react';
 
