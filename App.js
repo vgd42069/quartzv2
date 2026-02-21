@@ -212,7 +212,7 @@ const App = () => {
       console.log('Fetching markets from API...');
       
       // Use our Vercel API endpoint to avoid CORS issues
-      const response = await fetch('https://corsproxy.io/?https://gamma-api.polymarket.com/markets', {
+      const response = await fetch('https://api.allorigins.win/raw?url=https://gamma-api.polymarket.com/markets', {
         method: 'GET',
         headers: {
           'Accept': 'application/json',
